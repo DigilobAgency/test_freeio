@@ -1,0 +1,779 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<title>Freeio - Theme Documentation</title>
+	
+	<meta name="description" content="Freeio - Theme Documentation">
+	<meta name="viewport" content="width=device-width">
+	<meta name="author" content="ApusWP">
+	<meta name="copyright" content="ApusWP">
+	
+	<link rel="stylesheet" href="assets/css/reset.css" media="all">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" href="assets/css/style.css" media="all">
+
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	
+	
+</head>
+<body>
+	<div class="container">
+		<div id="header" class="header">
+			<div class="row">
+				<div class="col-xs-6">
+					<div>Theme Documentation</div>
+					<h1 class="theme-name-header">Freeio</h1>
+				</div>
+				<div class="col-xs-6">
+					<a href="https://apusthemes.ticksy.com/" class="btn btn-md pull-right btn-primary">Submit a ticket</a>
+				</div>
+			</div>
+			
+		</div>
+		<hr class="notop">
+		<div class="navigation-btn">
+			<div class="row">
+				<div class="col-xs-12">
+					<button class="btn btn-primary show-navigation">Navigation</button>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+		</div>
+		<div id="main-content" class="main-content">
+			<div class="row">
+				<div class="col-md-3 col-sm-12">
+					<div class="navigation-wrapper">
+						
+						<ul id="navigation" class="navigation panel-affix">
+							<li class="close-nav-wrapper">
+								<div class="close-nav">Close Navigation</div>
+							</li>
+			                <li class="nav-scrollpy">
+			                    <a href="javascript:void(0);" class="header-nav">Installation <span class="arrow">-</span></a>
+			                    <ul class="nav nav-active">
+			                        <li><a href="#theme_installation">Theme Installation</a></li>
+			                        <li><a href="#plugin_installation">Plugin Installation</a></li>
+			                        <li><a href="#import_demo_content">Import Demo Content</a></li>
+			                    </ul>
+			                </li>
+			                <li class="nav-scrollpy">
+			                    <a href="javascript:void(0);" class="header-nav">Freeio Settings <span class="arrow">+</span></a>
+			                    <ul class="nav">
+			                    	<li><a href="#freeio_settings_settings">Settings</a></li>
+			                        <li class="nav-scrollpy">
+			                        	<a href="#freeio_settings_fields_manager">Fields Manager</a>
+			                        	<ul class="nav">
+					                    	<li><a href="#freeio_settings_fields_manager">Service</a></li>
+					                        <li><a href="#freeio_settings_project_fields_manager">Project</a></li>
+					                        <li><a href="#freeio_settings_job_fields_manager">Job</a></li>
+					                        <li><a href="#freeio_settings_employer_fields_manager">Employer</a></li>
+					                        <li><a href="#freeio_settings_freelancer_fields_manager">Freelancer</a></li>
+					                    </ul>
+			                        </li>
+			                        <li><a href="#listing_settings_shortcodes">Shortcodes</a></li>
+			                    </ul>
+			                </li>
+			                <li class="nav-scrollpy">
+			                    <a href="javascript:void(0);" class="header-nav">Theme Configuration <span class="arrow">+</span></a>
+			                    <ul class="nav">
+			                        <li><a href="#theme_configuration_pages">Pages</a></li>
+			                        <li><a href="#theme_configuration_blog">Blog</a></li>
+			                        <li><a href="#theme_configuration_header">Header</a></li>
+			                        <li><a href="#theme_configuration_footer">Footer</a></li>
+			                        <li><a href="#theme_configuration_menu">Menu</a></li>
+			                    </ul>
+			                </li>
+			                <li class="nav-scrollpy">
+			                    <a href="javascript:void(0);" class="header-nav">Theme Options <span class="arrow">+</span></a>
+			                    <ul class="nav">
+			                        <li><a href="#theme_opt_general">General</a></li>
+			                        <li><a href="#theme_opt_header">Header</a></li>
+			                        <li><a href="#theme_opt_footer">Footer</a></li>
+			                        <li><a href="#theme_opt_blog">Blog</a></li>
+			                        <li><a href="#theme_opt_shop">WooCommerce</a></li>
+			                        <li><a href="#theme_opt_project">Projects Settings</a></li>
+			                        <li><a href="#theme_opt_service">Services Settings</a></li>
+			                        <li><a href="#theme_opt_job">Jobs Settings</a></li>
+			                        <li><a href="#theme_opt_employer">Employers Settings</a></li>
+			                        <li><a href="#theme_opt_freelancer">Freelancers Settings</a></li>
+			                        
+			                        <li><a href="#theme_opt_404">404 Page</a></li>
+			                        <li><a href="#theme_opt_theme_color">Theme Color</a></li>
+			                        <li><a href="#theme_opt_typo">Typography</a></li>
+			                    </ul>
+			                </li>
+			                <li class="nav-scrollpy">
+			                    <a href="javascript:void(0);" class="header-nav">FAQS <span class="arrow">+</span></a>
+			                    <ul class="nav">
+			                        <li><a href="#how_to_translate_the_theme">How to translate the theme</a></li>
+			                        <li><a href="#how_to_update_theme">How to update Theme</a></li>
+			                        <li><a href="#how_to_create_child_theme">How to create Child Theme</a></li>
+			                        <li><a href="#how_to_speed_optimization">How to Speed Optimization</a></li>
+			                    </ul>
+			                </li>
+			            </ul>
+		            </div>
+				</div>
+				<div class="col-md-9 col-sm-12">
+					<!-- Theme Installation -->
+					<section id="theme_installation">
+						<div class="page-header"><h2>Theme Installation → Theme Installation</h2></div>
+						<h3 id="download-package">Download packages</h3>
+						<p>Purchase <strong>Freeio</strong> theme from <a href="http://themeforest.net/user/apustheme/portfolio"><strong>ThemeForest</strong></a> then you can download our template package on there.</p>
+						<p>Extract package that include all files and folders of theme. When done, you should see <strong>freeio_theme.zip</strong> (zip file name can be changed from version to version).</p>
+						
+						<p>&nbsp;</p>
+						<h3 id="system-requirement">System Requirements</h3>
+						<p>When selecting a hosting service, you should check to see that these server requirements are provided and installed on their web servers:</p>
+						
+						<code>
+							- PHP version 5.6 or greater
+							<br>
+							- MySQL version 5.6 or greater
+							<br>
+							- Recommended memory_limit is no less than 64M
+							<br>
+							- Upload_max_filesize should be no less than 20M
+						</code>
+						<p>&nbsp;</p>
+
+
+						<h3 id="theme-installation">Theme Installation</h3>
+
+						<p><strong>- Step 1:</strong> Navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Themes</strong> in your <strong>WordPress admin dashboard</strong>.</p>
+						<p><img alt="" src="assets/images/install_1.png"></p>
+						<p>&nbsp;</p>
+						<p><strong>- Step 2:</strong> Click the <strong>Add New</strong> button at the top of the page and go for the <strong>Upload option</strong>.</p>
+						<p><img alt="" src="assets/images/install_2.png"></p>
+						<p>&nbsp;</p>
+						<p><strong>- Step 3:</strong> Choose <strong>freeio_theme.zip</strong> then click Install</p>
+						<p><img alt="" src="assets/images/install_3.png"></p>
+						<p>&nbsp;</p>
+						<p><strong>- Step 4:</strong> Wait while the theme is uploaded and installed then activate the theme.</p>
+						<p><img alt="" src="assets/images/install_4.png"></p>
+						<p>&nbsp;</p>
+
+
+
+
+						<h3 id="known-issues">Known problems when installing the theme</h3>
+						<p><b>a. The &ldquo;Broken theme and/or stylesheets missing&rdquo; error is most common when you install or activate a new theme.</b></p>
+						<p>If you get an error saying that the stylesheet is missing, then you have uploaded the wrong folder. Please check that you are uploading the <strong>freeio_theme.zip</strong> within the Theme Files folder. You have to unzip the package file that you download from Themeforest to find this.</p>
+						<p><b>b. Problems with uploading via WP admin panel due Upload limit.</b></p>
+						<p>You may check your file upload limit on Your Media Uploader page in WordPress. Depending upon the web hosting company and the conditions of the service they provide it may vary. The most common is about 8 MB which is more or less enough. But uploading some media files like audio and video may become a problem with for example 2 MB upload limit.<br>
+							We decided to share some tips about how to extend your maximum file upload size in WordPress:</p>
+						<p><strong>1. Through functions.php file:</strong></p>
+						<p>You may add the below mentioned code in the <code>functions.php</code> file of your theme</p>
+						<code>
+						@ini_set( &#39;upload_max_size&#39; , &#39;64M&#39; );
+						<br>
+						@ini_set( &#39;post_max_size&#39;, &#39;64M&#39;);
+						<br>
+						@ini_set( &#39;max_execution_time&#39;, &#39;300&#39; );</code>
+						<p><strong>2. Through PHP.INI file:</strong></p>
+						<p>If you cannot see the php.ini file in your directory create the new one with below mentioned code and upload it to your root folder on your web server.</p>
+						<p>If you can see the php.ini file then change parameters or add :</p>
+						<code>
+							upload_max_filesize = 64M
+							<br>
+							post_max_size = 64M
+							<br>
+							max_execution_time = 300
+						</code>
+						<p>In case that tip does not work with 64MB, try it with 10MB.</p>
+						<p><strong>3. Through .htaccess method</strong></p>
+						<p>You may try modifying the existing .htaccess file in the root directory or creating a new one.</p>
+						<p>Add the following code in the existing or new <code>.htacess</code> file:</p>
+						<code>
+							php_value upload_max_filesize 64M
+							<br>
+							php_value post_max_size 64M
+							<br>
+							php_value max_execution_time 300
+							<br>
+							php_value max_input_time 300
+						</code>
+						<p>You can reset all of the setting for the each page on our custom panel by clicking &ldquo;Reset&rdquo; button on the bottom.</p>
+						<p>&nbsp;</p>
+					</section>
+
+					<section id="plugin_installation">
+						<div class="page-header"><h2>Theme Installation → Plugins Installation</h2></div>
+						<p>Right after the theme was activated, a notification at the top of the screen will suggest to continue with the installation of the plugins recommended for getting the best our of your theme.</p>
+						<p>Follow the installation steps below:</p>
+						<p><strong>Step 1</strong>. Click &lsquo;<strong>Begin installing plugins</strong>&lsquo; and select the plugins you need to install from the list.</p>
+						<p><img alt="" src="assets/images/install_plugin_1.png"></p>
+						<p>&nbsp;</p>
+						<p><strong>Step 2: </strong>Select all plugins then choose <strong>Install</strong> , Click <strong>Apply</strong> to install all plugins</p>
+						<p><img alt="" src="assets/images/install_plugin_2.png"></p>
+
+						<h6>Plugins Using in Freeio theme </h6>
+						<ol>
+							<li><strong>Apus Framework for themes: </strong>Implement rick functions for themes base on apus framework and load widgets for theme used.</li>
+							<li><strong>Cmb2:</strong> Create custom meta boxes and custom fields for any post type in WordPress.</li>
+							<li><strong>Contact Form 7:</strong> Allow you create contact forms on Contact Page.</li>
+							<li><strong>Elementor:</strong> powerful Elementor to create page layout</li>
+							<li><strong>MailChimp for WordPress:</strong> to use newsletter function</li>
+							<li><strong>WP Listings Directory:</strong> Listings manager plugin</li>
+							<li><strong>WP Listings Directory - WooCommerce Paid Listings:</strong> Paid listing plugin</li>
+							<li><strong>WP Private Message:</strong> Private message manager</li>
+							<li><strong>WooCommerce:</strong> The Shop engine for your WordPress site.</li>
+							<li><strong>One Click Demo Import:</strong> Import demo data for the theme.</li>
+						</ol>
+						<p>&nbsp;</p>
+						<p><strong>Step 3:&nbsp; </strong>After Installing all Plugins, select <strong>Activate </strong>then click <strong>Apply </strong>to active all plugins. </p>
+						<p><img alt="" src="assets/images/install_plugin_3.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+					<section id="import_demo_content">
+						<div class="page-header"><h2>Theme Installation → Install Data Demo</h2></div>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Import Demo Data</strong></p>
+						<p><img alt="" src="assets/images/install_import_1.png"></p>
+						
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Import</strong> button.</p>
+						<p><img alt="" src="assets/images/install_import_2.png"></p>
+						<p>&nbsp;</p>
+					</section>
+
+					<!-- Listings Settings-->
+					<section id="freeio_settings_settings">
+						<div class="page-header"><h2>Freeio Settings</h2></div>
+						<h4>A. General Settings</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>General</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings1.png"></p>
+
+						<h4>B. Pages Settings</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Pages</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings2.png"></p>
+
+						<h4>C. Submission</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Submission</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings3.png"></p>
+						
+						
+						<h4>D. Jobs Settings</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Jobs Settings</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings4.png"></p>
+
+						<h4>E. Services Settings</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Services Settings</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings5.png"></p>
+
+						<h4>F. Projects Settings</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Projects Settings</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings6.png"></p>
+
+						<h4>G. Employer Settings</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Employer Settings</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings7.png"></p>
+
+						<h4>H. Freelancer Settings</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Freelancer Settings</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings8.png"></p>
+
+						<h4>I. Payment Settings</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Payment Settings</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings9.png"></p>
+
+						<h4>J. Socials API</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Socials API</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings10.png"></p>
+
+						<h4>K. ReCaptcha API</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>ReCaptcha API</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings11.png"></p>
+
+						<h4>L. Email Notification</h4>
+						<p><strong>Step 1:&nbsp; </strong> Navigate to <strong class="highlight">Freeio Settings</strong> → <strong class="highlight">Settings</strong></p>
+						<p><strong>Step 2:&nbsp; </strong> Click on <strong>Email Notification</strong> tab.</p>
+						<p><img alt="" src="assets/images/freeio_settings12.png"></p>
+
+					</section>
+
+					<section id="freeio_settings_fields_manager">
+						<div class="page-header"><h2>Services → Fields Manager</h2></div>
+						<p> Navigate to <strong class="highlight">Services</strong> → <strong class="highlight">Fields Manager</strong></p>
+						<p><img alt="" src="assets/images/freeio_settings_service_fields_manager1.png"></p>
+						<p><img alt="" src="assets/images/freeio_settings_service_fields_manager2.png"></p>
+					</section>
+
+					<section id="freeio_settings_project_fields_manager">
+						<div class="page-header"><h2>Projects → Fields Manager</h2></div>
+						<p> Navigate to <strong class="highlight">Projects</strong> → <strong class="highlight">Fields Manager</strong></p>
+						<p><img alt="" src="assets/images/freeio_settings_project_fields_manager1.png"></p>
+						<p><img alt="" src="assets/images/freeio_settings_project_fields_manager2.png"></p>
+					</section>
+
+					<section id="freeio_settings_job_fields_manager">
+						<div class="page-header"><h2>Jobs → Fields Manager</h2></div>
+						<p> Navigate to <strong class="highlight">Jobs</strong> → <strong class="highlight">Fields Manager</strong></p>
+						<p><img alt="" src="assets/images/freeio_settings_job_fields_manager1.png"></p>
+						<p><img alt="" src="assets/images/freeio_settings_job_fields_manager2.png"></p>
+					</section>
+
+					<section id="freeio_settings_employer_fields_manager">
+						<div class="page-header"><h2>Employers → Fields Manager</h2></div>
+						<p> Navigate to <strong class="highlight">Employers</strong> → <strong class="highlight">Fields Manager</strong></p>
+						<p><img alt="" src="assets/images/freeio_settings_employer_fields_manager1.png"></p>
+						<p><img alt="" src="assets/images/freeio_settings_employer_fields_manager2.png"></p>
+					</section>
+
+					<section id="freeio_settings_freelancer_fields_manager">
+						<div class="page-header"><h2>Freelancers → Fields Manager</h2></div>
+						<p> Navigate to <strong class="highlight">Freelancers</strong> → <strong class="highlight">Fields Manager</strong></p>
+						<p><img alt="" src="assets/images/freeio_settings_freelancer_fields_manager1.png"></p>
+						<p><img alt="" src="assets/images/freeio_settings_freelancer_fields_manager2.png"></p>
+					</section>
+
+					<section id="listing_settings_shortcodes">
+						<div class="page-header"><h2>Shortcodes</h2></div>
+						
+						<h6>All Shortcodes for Freeio</h6>
+						<ol>
+							<li><strong>[wp_freeio_logout]</strong>: For logout user</li>
+							<li><strong>[wp_freeio_login]</strong>: Show user login form</li>
+							<li><strong>[wp_freeio_register_freelancer]</strong>: Show only freelancer register form</li>
+							<li><strong>[wp_freeio_register_employer]</strong>: Show only employer register form</li>
+							<li><strong>[wp_freeio_user_dashboard]</strong>: Show user (freelancer, employer) dashboard page</li>
+							<li><strong>[wp_freeio_change_password]</strong>: Show user (freelancer, employer) change password form</li>
+							<li><strong>[wp_freeio_change_profile]</strong>: Show user (freelancer, employer) change profile form</li>
+							<li><strong>[wp_freeio_change_resume]</strong>: Show freelancer change resume form</li>
+							<li><strong>[wp_freeio_delete_profile]</strong>: Show user (freelancer, employer) delete profile form</li>
+							<li><strong>[wp_freeio_approve_user]</strong>: Show approve user form</li>
+
+							<li><strong>[wp_freeio_submission_project]</strong>: Show employer submission project form</li>
+							<li><strong>[wp_freeio_my_projects]</strong>: Show list my projects</li>
+							<li><strong>[wp_freeio_my_proposals]</strong>: Show my proposals</li>
+
+							<li><strong>[wp_freeio_submission_service]</strong>: Show freelancer submission service form</li>
+							<li><strong>[wp_freeio_my_services]</strong>: Show list my services</li>
+							<li><strong>[wp_freeio_submission_service_addon]</strong>: Show freelancer submission service addons form</li>
+							<li><strong>[wp_freeio_my_bought_services]</strong>: Show services employer bought</li>
+
+							<li><strong>[wp_freeio_payouts]</strong>: Show list payouts</li>
+							<li><strong>[wp_freeio_statements]</strong>: Show list statements</li>
+							<li><strong>[wp_freeio_verify_identity]</strong>: Show verify identity form</li>
+
+							<li><strong>[wp_freeio_submission_job]</strong>: Show employer submission job form</li>
+							<li><strong>[wp_freeio_my_jobs]</strong>: Show list my jobs</li>
+							<li><strong>[wp_freeio_job_applicants]</strong>: Show list jobs applicants</li>
+							<li><strong>[wp_freeio_my_freelancers_shortlist]</strong>: Employer: Show list freelancers shortlist</li>
+							<li><strong>[wp_freeio_my_freelancers_alerts]</strong>: Show list freelancers alerts</li>
+							<li><strong>[wp_freeio_employer_employees]</strong>: Employer manager his employees</li>
+							<li><strong>[wp_freeio_my_applied]</strong>: Candidate: show list my jobs applied</li>
+							<li><strong>[wp_freeio_my_jobs_alerts]</strong>: Candidate: show list my jobs alerts</li>
+							<li><strong>[wp_freeio_jobs]</strong>: Show list jobs</li>
+							<li><strong>[wp_freeio_employers]</strong>: Show list employers</li>
+							<li><strong>[wp_freeio_freelancers]</strong>: Show list freelancers</li>
+							<li><strong>[wp_freeio_services]</strong>: Show list services</li>
+							<li><strong>[wp_freeio_projects]</strong>: Show list projects</li>
+						</ol>
+					</section>
+
+					<!-- Theme Configuration -->
+					<section id="theme_configuration_pages">
+						<div class="page-header"><h2>Theme Configuration → Page</h2></div>
+						<p>You can quickly build a home page using Elementor for WordPress that is drag and drop frontend and backend page builder plugin that will save you tons of time working on the site content. You will be able to take full control over your WordPress site, build any layout you can imagine – no programming knowledge required</p>
+						<p>From your <strong class="highlight">Dashboard</strong> admin Navigate to <strong class="highlight">Pages</strong></p>
+						<p>- Select <strong class="highlight">All Pages</strong> to see all pages then click edit one page you want</p>
+						<p>- Select <strong class="highlight">Add New</strong> to create new page</p>
+
+						<p>&nbsp;</p>
+						<h4>A. How to use Elementor</h4>
+
+						<p>Have you ever used Elementor ? Please follow that guide first : <a href="https://docs.elementor.com/"><strong>Elementor guide</strong></a></p>
+						<p><a href="https://elementor.com/" target="_blank">Official Plugin Documentation</a> For More information about the Elementor check the official documentation.</p>
+						<p>Watch video about Elementor</p>
+						<p><iframe width="560" height="315" src="https://www.youtube.com/embed/kB4U67tiQLA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>  </p>
+
+						<p><strong>a. Add and modify Row Layout</strong></p>
+						<p><strong><span class="alt">Step 1</span></strong>&nbsp;- Go to your page / post, first activate the&nbsp;backend editor&nbsp;and click&nbsp;Edit with Elementor</p>
+						<!-- image -->
+						<p>	<strong><span>Step 2</span>&nbsp;</strong>- You will see all element in left sidebar, please choose element that you want to use.</p>
+						<!-- image -->
+						<p>or you will see button "Add New Section" ,"Add Template" , please click to button to add element.</p>
+						<!-- image -->
+						<p>	<strong><span class="alt">Step 3</span></strong>&nbsp;- To&nbsp;change the Row layout ( number of columns )&nbsp;you need to click button content will display in leftsidebar.</p>
+						<!-- image -->
+						<p><strong>b. Edit Element</strong></p>
+						<p> Click on the&nbsp;Edit This Element (pencil icon)&nbsp;to Edit the Row element , when you click to button all content will display in left sidebar follow you can change .</p>
+						<!-- image -->
+						<p><b>c. Remove Element</b></p>
+						<p>	<span>Trash Box Icon</span>&nbsp;- To Remove Row, Column or Module you need to click the Trash Box icon.</p>
+						<!-- image -->
+						<p><b>d. Add Element</b></p>
+						<p>	<span>Trash Box Icon</span>&nbsp;- To Add Row, Column , please click to add icon.</p>
+						<!-- image -->
+						<p>&nbsp;</p>
+						<h4>B. Page Options</h4>
+						<p><strong>a. Page Attributes</strong></p>
+						<p>You can select page attributes on right sidebar of page admin layout. Each Page templates have each styles</p>
+						<p><img alt="" src="assets/images/theme_config21.jpg"></p>
+						<p><strong>b. Page configure default template</strong></p>
+						<p>For each page you can change the page layout, header layout, footer layout and much more! Check the screenshot and read the documentation to see how it works</p>
+						<p><img alt="" src="assets/images/theme_config22.jpg"></p>
+						<ol>
+							<li><strong>Select Layout</strong> - Select style for page to have a Auto, Left-Main Sidebar or Main-Right Sidebar<strong>.</strong></li>
+							<li><strong>Enable Fullwidth Layout</strong> - Select if you want the page to have a Fullwidth layout.</li>
+							<li><strong>Header Layout</strong> - Select skin specific for Header on page or use Global</li>
+							<li><strong>Footer Layout </strong>-&nbsp; Select skin specific for Footer on page or use Globalsidebar.</li>
+							<li><strong>Disable Breadcrumbs</strong> - Select if you want to disable the subtitle and breadcrumbs.</li>
+							<li><strong>Breadcrumbs Text Color</strong> - Select color for text of breadcrumbs.</li>
+							<li><strong>Breadcrumbs Background Color - </strong>Select color background for breadcrumbs.</li>
+							<li><strong>Breadcrumbs Background - </strong>Select image to set background.</li>
+						</ol>
+						<p>&nbsp;</p>
+						<h4>C. Set a page as Home Page</h4>
+						<p><strong>Step 1 </strong>- Go to <strong>Settings</strong> → <strong>Reading</strong> in your WordPress Dashboard panel.</p>
+						<p><strong>Step 2 </strong>- Set "Front page displays" to a "Static Page".</p>
+						<p><strong>Step 3</strong> - In the drop down menu for "<strong>Front Page</strong>" choose a page which will be your home page.</p>
+						<p><strong>Step 4</strong> - Leave the drop down menu for "Posts page" empty, as this is not used by the theme.</p>
+						<p><strong>Step 5</strong> - Save changes.</p>
+						<img alt="" src="assets/images/theme_config26.jpg">
+
+						<p>&nbsp;</p>
+					</section>
+					<section id="theme_configuration_blog">
+						<div class="page-header"><h2>Theme Configuration → Blog</h2></div>
+						<h4>1. Create the blog post</h4>
+						<p><strong>Step 1</strong> - Log in to your WordPress Administration Panel (Dashboard)</p>
+						<p><strong>Step 2</strong> - Click the '<strong>Posts</strong>' tab.</p>
+						<p><strong>Step 3</strong> - Click the '<strong>Add New</strong>' sub-tab.</p>
+						<p><strong>Step 4</strong> - Start filling in the blanks: enter your post title in the upper field, and enter your post body content in the main post editing box below it.</p>
+						<p><strong>Step 5</strong> - As needed, select a category, add tags, post format, fill in the meta setings below the editor.</p>
+						<p><strong>Step 6</strong> - Upload a featured image for your Post.</p>
+						<p><strong>Step 7</strong> - Select Post Format. You can create blog post with a lot of <strong>Formats </strong>like link, gallery, image ..... Select format on Format box from in right sidebar</p>
+						<p><strong>Step 8 </strong> - Scroll down until you see the Post Configuration box, there you will be able to customize the post.</p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config27.jpg"></p>
+						<p><strong>Step 9</strong> -  When your post is ready, click Publish.</p>
+
+						<p>&nbsp;</p>
+						<h4>2. Manager current all blogs</h4>
+						<p>Navigate to <strong>Posts</strong> → <strong>All Posts</strong></p>
+						<p>You can see all informations of you blog post, add new, edit or delete them.</p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config28.jpg"></p>
+
+						<p>&nbsp;</p>
+						<h4>3. Setting a Page for Blog Page</h4>
+						<p><strong>Option 1. Create Blog Page with Visual Element</strong></p>
+						<p><strong>Step 1</strong> - Log in to your <strong class="highlight">WordPress Dashboard</strong> → <strong class="highlight">Settings</strong> → <strong class="highlight">Reading</strong></p>
+						<p><strong>Step 2</strong> - Choose a page for Blog page.</p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config29.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+					<section id="theme_configuration_header">
+						<div class="page-header"><h2>Theme Configuration → Header</h2></div>
+						<p>The theme is using Header Builder to build header layout</p>
+						<p><strong>Step 1:</strong> Login to your WordPress admin panel, and navigate to <strong class="highlight">Header Builder</strong></p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config_header1.png"></p>
+						<p><strong>Step 2:</strong> You can add new or edit available header</p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config_header2.png"></p>
+						<p><strong>Step 3:</strong> Settings global header layout. Go to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Header</strong></p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config_header3.png"></p>
+						<p><strong>Step 4:</strong> Settings separate header for page. Go to <strong class="highlight">Pages</strong> to edit page that you need set separate header</p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config_header4.png"></p>
+						<p>&nbsp;</p>
+					</section>
+					<section id="theme_configuration_footer">
+						<div class="page-header"><h2>Theme Configuration → Footer</h2></div>
+						<p><strong>Step 1:</strong> Login to your WordPress admin panel, and navigate to <strong class="highlight">Footer Builder</strong></p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config_footer1.png"></p>
+						<p><strong>Step 2:</strong> You can add new or edit available footer</p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config_footer2.png"></p>
+						<p><strong>Step 3:</strong> Settings global footer layout. Go to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Footer</strong></p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config_footer3.png"></p>
+						<p><strong>Step 4:</strong> Settings separate footer for page. Go to <strong class="highlight">Pages</strong> to edit page that you need set separate footer</p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config_footer4.png"></p>
+						<p>&nbsp;</p>
+					</section>
+					<section id="theme_configuration_menu">
+						<div class="page-header"><h2>Theme Configuration → Menu</h2></div>
+						<h4>1. Creating your menu</h4>
+						<p><strong>Step 1-</strong> Login to the WordPress Dasrdoard.</p>
+						<p><strong>Step 2- </strong>From the 'Appearance' menu on the left-hand side of the Dashboard, select the 'Menus' option to bring up the Menu Editor.</p>
+						<p><img alt="" class="step_img" src="assets/images/theme_config2.jpg"></p>
+						<p><strong>Step 3 -</strong> Select Create a new menu at the top of the page.</p>
+						<p><strong>Step 4 -</strong> Enter a name for your new menu in the Menu Name box.</p>
+						<p><strong>Step 5 -</strong> Click the Create Menu button. Your menu is now defined, and you can now add pages to it (steps below).</p>
+
+						<p>&nbsp;</p>
+						<h4>2. Adding pages to your menu</h4>
+						<p><strong>Step 1</strong> - Locate the pane entitled Pages.</p>
+						<p><strong><span>Step 2</span></strong> - Within this pane, select the View All link to bring up a list of all the currently published Pages on your site.  </p>
+						<p><strong><span>Step 3</span></strong> - Select the Pages that you want to add by clicking the check box next to each Page's title.</p>
+						<p><strong><span>Step 4</span></strong> - Click the Add to Menu button located at the bottom of this pane to add your selection(s) to the menu that you created in the previous step.</p>
+						<p><strong><span>Step 5</span></strong> - Click the Save Menu button once you've added all the menu items you want. Your custom menu has now been saved.</p>
+						<p><img alt="" src="assets/images/theme_config3.jpg"></p>
+						<p>The Screen Options allow you to choose which items you can use to add to a menu. Certain items, like Posts or Products are hidden by default. The Screen Options are located in the top right corner of your WordPress Dashdoard.</p>
+						<p><img alt="" src="assets/images/theme_config4.jpg"></p>
+
+						<p>&nbsp;</p>
+						<h4>3. Setup Megamenu</h4>
+						<p><strong>Step 1-</strong> Login to the WordPress Dasrdoard.</p>
+						<p><strong>Step 2-</strong> navigate to <strong class="highlight">Megamenu Profiles</strong>. to create a megamenu profile (using Elementor to build layout)</p>
+						<p><strong>Step 3-</strong> From the &#39;Appearance&#39; menu on the left-hand side of the Dashboard, select the &#39;Menus&#39; option to bring up the Menu Editor.</p>
+						<p><strong>Step 4-</strong> Add megamenu profile to menu item</p>
+						<p><img alt="" src="assets/images/theme_config4-1.jpg"></p>
+
+						<p>&nbsp;</p>
+						<h4>4. Assigning a Menu to a Location</h4>
+						<p>Once you've created a menu and filled it with items, it's time to assign it to one of the theme pre-defined locations.</p>
+						<p>- Go to <strong class="highlight">Appearance</strong> → <strong class="highlight">Menus</strong> and click <strong class="highlight">Manage Locations.</strong></p>
+						<p><img alt="" src="assets/images/theme_config5.png"></p>
+
+
+
+						<p>&nbsp;</p>
+					</section>
+					<!-- Theme Options -->
+					<section id="theme_opt_general">
+						<div class="page-header"><h2>Appearance → Customize → General</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">General</strong></p>
+						<p><img alt="" src="assets/images/theme_options_general.png"></p>
+						<p>&nbsp;</p>
+					</section>
+					<section id="theme_opt_header">
+						<div class="page-header"><h2>Appearance → Customize → Header</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Header</strong></p>
+						<p><img alt="" src="assets/images/theme_options_header.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+					<section id="theme_opt_footer">
+						<div class="page-header"><h2>Appearance → Customize → Footer</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Footer</strong></p>
+						<p><img alt="" src="assets/images/theme_options_footer.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+					<section id="theme_opt_blog">
+						<div class="page-header"><h2>Appearance → Customize → Blog</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Blog</strong></p>
+						<p><img alt="" src="assets/images/theme_options_blog.png"></p>
+						<p><img alt="" src="assets/images/theme_options_blog1.png"></p>
+						<p><img alt="" src="assets/images/theme_options_blog2.png"></p>
+						<p>&nbsp;</p>
+					</section>
+					<section id="theme_opt_shop">
+						<div class="page-header"><h2>Appearance → Customize → WooCommerce</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Shop Settings</strong></p>
+						<p><img alt="" src="assets/images/theme_options_shop.png"></p>
+						<p><img alt="" src="assets/images/theme_options_shop1.png"></p>
+						<p><img alt="" src="assets/images/theme_options_shop2.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+
+					<section id="theme_opt_project">
+						<div class="page-header"><h2>Appearance → Customize → Projects Settings</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Projects Settings</strong></p>
+						<p><img alt="" src="assets/images/theme_options_project.png"></p>
+						<p><img alt="" src="assets/images/theme_options_project1.png"></p>
+						<p><img alt="" src="assets/images/theme_options_project2.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+					
+					<section id="theme_opt_service">
+						<div class="page-header"><h2>Appearance → Customize → Services Settings</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Services Settings</strong></p>
+						<p><img alt="" src="assets/images/theme_options_service.png"></p>
+						<p><img alt="" src="assets/images/theme_options_service1.png"></p>
+						<p><img alt="" src="assets/images/theme_options_service2.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+
+					<section id="theme_opt_job">
+						<div class="page-header"><h2>Appearance → Customize → Jobs Settings</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Jobs Settings</strong></p>
+						<p><img alt="" src="assets/images/theme_options_job.png"></p>
+						<p><img alt="" src="assets/images/theme_options_job1.png"></p>
+						<p><img alt="" src="assets/images/theme_options_job2.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+
+					<section id="theme_opt_employer">
+						<div class="page-header"><h2>Appearance → Customize → Employers Settings</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Employers Settings</strong></p>
+						<p><img alt="" src="assets/images/theme_options_employer.png"></p>
+						<p><img alt="" src="assets/images/theme_options_employer1.png"></p>
+						<p><img alt="" src="assets/images/theme_options_employer2.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+
+					<section id="theme_opt_freelancer">
+						<div class="page-header"><h2>Appearance → Customize → Freelancers Settings</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Freelancers Settings</strong></p>
+						<p><img alt="" src="assets/images/theme_options_freelancer.png"></p>
+						<p><img alt="" src="assets/images/theme_options_freelancer1.png"></p>
+						<p><img alt="" src="assets/images/theme_options_freelancer2.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+
+					<section id="theme_opt_404">
+						<div class="page-header"><h2>Appearance → Customize → 404 Page</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">404 Page</strong></p>
+						<p><img alt="" src="assets/images/theme_options_404.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+					<section id="theme_opt_theme_color">
+						<div class="page-header"><h2>Appearance → Customize → Theme Color</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Theme Color</strong></p>
+						<p><img alt="" src="assets/images/theme_options_style.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+					<section id="theme_opt_typo">
+						<div class="page-header"><h2>Appearance → Customize → Typography</h2></div>
+						<p>Go to WordPress admin panel and navigate to <strong class="highlight">Appearance</strong> → <strong class="highlight">Customize</strong> → <strong class="highlight">Typography</strong></p>
+						<p><img alt="" src="assets/images/theme_options_style.png"></p>
+
+						<p>&nbsp;</p>
+					</section>
+
+					<!-- FAQ -->
+					<section id="how_to_translate_the_theme">
+						<div class="page-header"><h2>FAQs → How to translate the theme</h2></div>
+						<p>The easiest way to translate theme to the language of your choice is to use <a href="https://wpml.org/"><strong>&quot;WPML&quot; plugin.</strong></a></p>
+						<p><strong>- To begin</strong>, be sure you have the <strong><a>WPML Plugin</a></strong> installed and activated, along with the <strong>WPML String Translation</strong> plugin.</p>
+						<p><strong>- To set up WPML the first time</strong>, follow their <a href="http://wpml.org/documentation/getting-started-guide/">Getting Started Guide</a>.To begin translating, select <strong>WPML</strong> (in the Dashboard menu) → <strong>String Translation</strong>. You should see a list of the strings in the theme (there should be only four), with blue translation links to the right. Click these links to reveal the list of languages you use on your blog and the associated translations.</p>
+						<p><strong>- How to set and translate main features of the theme</strong></p>
+						<ul>
+							<li>Using translation management http://wpml.org/documentation/translating-your-contents/using-the-translation-editor/</li>
+							<li>Translation Management &amp; Features &ndash; http://wpml.org/documentation/translating-your-contents/using-the-translation-editor/translation-management-features/</li>
+							<li>Translating URL slugs &ndash; http://wpml.org/documentation/getting-started-guide/translating-page-slugs/</li>
+						</ul>
+						<p><strong>- How to scan strings coming from the theme</strong></p>
+						<ul>
+							<li>http://wpml.org/documentation/getting-started-guide/theme-localization/</li>
+						</ul>
+						<p><strong>- How to translate strings using String Translation</strong></p>
+						<ul>
+							<li>http://wpml.org/documentation/getting-started-guide/string-translation/</li>
+						</ul>
+						<p>
+							<strong>- If adjustment is needed for WPML language switcher please also add this</strong></p>
+						<ul>
+							<li>http://wpml.org/documentation/getting-started-guide/language-setup/custom-language-switcher/</li>
+						</ul>
+						<p><strong>- If you need more help with WPML plugin</strong>. Please go <a>WPML Forum</a></p>
+						<p>&nbsp;</p>
+					</section>
+					<section id="how_to_update_theme">
+						<div class="page-header"><h2>FAQs → How to update Theme</h2></div>
+						<h4>1. Update Theme via Envato Market plugin</h4>
+						<p>Download and install Envato Market plugin here: <a href="https://envato.com/market-plugin/">https://envato.com/market-plugin/</a></p>
+
+						<p>&nbsp;</p>
+						<h4>2. Update Theme via WordPress</h4>
+						<p>Updating the theme via WordPress is very similar to the install process via WordPress. Make sure you had backup all of your customization in our theme.<br>
+							Follow the steps below to update your theme via WordPress:<br>
+						</p>
+						<p>
+							<strong>Step 1</strong> - Download latest theme package on <a href="#">ThemeForest</a>
+						</p>
+						<p>
+							<strong>Step 2</strong> - Log into your <strong class="highlight">WordPress Dashboard.</strong>
+						</p>
+						<p>
+							<strong>Step 3</strong> - Go to <strong class="highlight">Appearance</strong> → <strong class="highlight">Themes</strong>
+						</p>
+						<p>
+							<strong>Step 4</strong> - <strong>Deactivate</strong> the <strong>Freeio Theme</strong> by simply activating a different theme. Once you activate a different theme, you can delete the <strong>Freeio theme</strong>.
+						</p>
+						<p>
+							<strong>Step 5</strong> - Delete the <strong>Freeio Theme</strong>. <strong>Do not worry, your content will not be lost!</strong><br>
+							<br>
+							<strong>Step 6</strong> - Then simply upload the newest &ldquo;freeio_theme.zip&rdquo; file in the <strong class="highlight">Appearance</strong> → <strong class="highlight">Themes</strong> section. Click on the <strong>Install Themes</strong> tab at the top and choose to upload the zip file. You have this step explained in section: Theme Installation via WordPress.
+						</p>
+
+						<p>&nbsp;</p>
+						<h4>3. Update theme via FTP</h4>
+						<p>
+							Updating the theme via FTP is very similar to the install process via FTP.<br>
+							Follow the steps below to update your theme via FTP:<br>
+							<br>
+							<strong>Step 1</strong> - Go to .../wp-content → themes location on your server using a FTP client and backup your &quot;<strong>freeio</strong>&quot; theme folder by saving it to your computer, or you can choose to simply delete it. Your content will not be lost.<br>
+							<br>
+							<strong>Step 2</strong> - Download the new version of Freeio theme from your <a href="#">Themeforest</a> and retrieve Freeio folder by unpacking the zip that you download from Themeforest and <strong>freeio_theme.zip</strong>.<br>
+							<br>
+							<strong>Step 3</strong> - Then simply drag and drop the new &quot;<strong>freeio</strong>&quot; theme folder into .../wp-content → themes location. Choose to &ldquo;Replace&rdquo; the current one if you did not delete it.<br>
+							<br>
+							<strong>Step 4</strong> - Log into your WordPress Dasrdoard, go to <strong class="highlight">Appearance</strong> → <strong class="highlight">Themes</strong> and activate the new <strong>freeio</strong> theme.
+						</p>
+						<p>&nbsp;</p>
+					</section>
+					<section id="how_to_create_child_theme">
+						<div class="page-header"><h2>FAQs → How to create Child Theme</h2></div>
+						<p>
+							<strong>What is a Child Theme?</strong><br>
+							A child theme is a theme that inherits the functionality of another theme, called the parent theme. Child themes allow you to modify, or add to the functionality of that parent theme. A child theme is the best, safest, and easiest way to modify an existing theme, whether you want to make a few tiny changes or extensive changes. Instead of modifying the theme files directly, you can create a child theme and override within.
+						</p>
+						<p><strong>Why use a Child Theme?</strong></p>
+						<p>
+							if you modify an existing theme and it is updated, your changes will be lost. With a child theme, you can update the parent theme (which might be important for security or functionality) and still keep your changes. It&rsquo;s a great way to get started if you are just learning WordPress theme development.
+						</p>
+						<h3>How to create Create child ?</h3>
+						<p>Follow that documentation to create Child Theme&nbsp;<a href="http://codex.wordpress.org/Child_Themes"> Child Themes - Codex</a></p>
+						<p>Using that plugin to create Child Theme : <a href="https://wordpress.org/plugins/one-click-child-theme/">One Click Child Theme</a></p>
+						<div class="alert"><strong>You need to use a Child Theme only if you are making code customizations.</strong></div>
+						<p>&nbsp;</p>
+					</section>
+					<section id="how_to_speed_optimization">
+						<div class="page-header"><h2>FAQs - How to Speed Optimization</h2></div>
+						<p>If you think your website takes too much time to load maybe you should.</p>
+						<ol>
+							<li>Install a Cache Plugin for WordPress. We recommend <a href="https://wordpress.org/plugins/w3-total-cache/">W3 Total Cache</a>.</li>
+							<li>Install an Image Compress Plugin. We recommend <a href="https://wordpress.org/plugins/wp-smushit/">WP Smush It.</a></li>
+							<li>Install a Database Optimizer Plugin We recommend <a href="https://wordpress.org/plugins/wp-optimize/installation/">WP Optimize</a></li>
+							<li>Reduce the number of posts on the page</li>
+							<li>Reduce the number of unnecessary plugins.</li>
+							<li>Use more icons and less images.</li>
+						</ol>
+						<p>&nbsp;</p>
+					</section>
+					<div class="spacer small"></div>
+					<h4>That's it!</h4>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="main-footer" class="main-footer"></div>
+		<div id="main-footer" class="footer clearfix">
+        	<div class="center">
+            	<p>© 2019 <a href="http://themeforest.net/?ref=ApusWP" target="_blank">ApusWP</a> - WordPress Themes</p>
+            </div>
+        </div>
+	</div>
+
+
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
